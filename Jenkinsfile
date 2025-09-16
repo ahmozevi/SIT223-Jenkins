@@ -1,4 +1,4 @@
-// Test auto-trigger at 07:42 PM AEST, Sep 16, 2025
+// Retry at 07:45 PM AEST
 pipeline {
   agent any
   triggers { pollSCM('* * * * *') }  // poll every minute
