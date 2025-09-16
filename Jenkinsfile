@@ -21,7 +21,7 @@ pipeline {
       steps { echo 'Task: Deploy to staging (e.g., AWS EC2) | Tools: Ansible/Docker/K8s' }
     }
     stage('Integration Tests on Staging') {
-      steps { echo 'Task: Run integration tests on staging | Tools: Postman/Newman/Cypress/Selenium' }
+      steps { echo 'Task: Run integration tests  on staging | Tools: Postman/Newman/Cypress/Selenium' }
     }
     stage('Deploy to Production') {
       steps { echo 'Task: Deploy to production (e.g., AWS EC2) | Tools: Ansible/Docker/K8s' }
