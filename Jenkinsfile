@@ -1,9 +1,7 @@
-// Retry at 8:08 PM AEST
+// Retry at 8:15 PM AEST
 pipeline {
   agent any
   triggers { pollSCM('* * * * *') }  // poll every minute
-
-  options { skipDefaultCheckout(true) }
 
   stages {
     stage('Build') {
