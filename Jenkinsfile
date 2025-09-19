@@ -1,4 +1,4 @@
-// Retry at 8:30 PM AEST
+// Retry at 8:37 PM AEST
 pipeline {
   agent any
   triggers { pollSCM('* * * * *') }  // poll every minute
